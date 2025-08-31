@@ -1,0 +1,1 @@
+std::pin::Pin<std::boxed::Box<(dyn futures::Future<Output = std::result::Result<http::Response<http_body_util::Full<bytes::Bytes>>, std::convert::Infallible>> + std::marker::Send + 'static)>>

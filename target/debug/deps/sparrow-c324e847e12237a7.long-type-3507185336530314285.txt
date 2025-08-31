@@ -1,0 +1,4 @@
+dyn Fn(http::Request<Vec<u8>>) -> Pin<Box<(dyn futures::Future<Output = http::Response<Vec<u8>>> + std::marker::Send + 'static)>> + std::marker::Send + Sync
+dyn Fn(http::Request<Vec<u8>>) -> Pin<Box<(dyn futures::Future<Output = http::Response<Vec<u8>>> + std::marker::Send + 'static)>> + std::marker::Send + Sync: Clone
+Box<dyn Fn(http::Request<Vec<u8>>) -> Pin<Box<(dyn futures::Future<Output = http::Response<Vec<u8>>> + std::marker::Send + 'static)>> + std::marker::Send + Sync>
+HashMap<String, Box<dyn Fn(http::Request<Vec<u8>>) -> Pin<Box<(dyn futures::Future<Output = http::Response<Vec<u8>>> + std::marker::Send + 'static)>> + std::marker::Send + Sync>>

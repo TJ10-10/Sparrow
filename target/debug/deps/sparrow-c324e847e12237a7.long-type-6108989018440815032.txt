@@ -1,0 +1,1 @@
+Arc<(dyn Fn(http::Request<Vec<u8>>) -> Pin<Box<(dyn futures::Future<Output = http::Response<Vec<u8>>> + std::marker::Send + 'static)>> + std::marker::Send + Sync + 'static)>

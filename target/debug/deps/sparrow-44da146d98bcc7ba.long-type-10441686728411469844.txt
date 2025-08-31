@@ -1,0 +1,1 @@
+std::pin::Pin<std::boxed::Box<(dyn futures::Future<Output = http::Response<std::vec::Vec<u8>>> + std::marker::Send + 'static)>>

@@ -1,0 +1,1 @@
+Pin<Box<(dyn Future<Output = http::Response<Vec<u8>>> + Send + 'static)>>
